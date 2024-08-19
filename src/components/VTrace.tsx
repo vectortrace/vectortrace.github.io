@@ -6,7 +6,7 @@ export default function VTrace() {
     <Hero className="grid-cols-[minmax(0,1fr)]">
       <Hero.Content className="text-center">
         <div className="w-10/12">
-          <h1 className="text-5xl font-bold">VertexTrace</h1>
+          <h1 className="text-6xl font-bold">Bring clarity to your AI workflow</h1>
           <p className="py-6 text-lg">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
