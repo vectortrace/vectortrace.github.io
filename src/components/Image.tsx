@@ -1,8 +1,3 @@
-// img[Attributes Style] {
-//     width: 1070px;
-//     aspect-ratio: auto 1070 / 803;
-//     height: 803px;
-// }
 export default function Image({ src }: { src: string }) {
   return (
     <div className="w-full h-full">

@@ -7,6 +7,7 @@ import Subtitle from "./components/Subtitle";
 import VFooter from "./components/VFooter";
 import Image from "./components/Image";
 import TwoColContainer from "./components/GridTwoCol";
+import Code from "./components/Code";
 
 function App() {
   return (
@@ -14,12 +15,10 @@ function App() {
       <Navbar />
       <VTrace />
       <Section bgColor="bg-[#1a1c1f]">
-        <>
+        <div className="grid grid-cols-1 px-10">
           <Title text="The world’s leading AI teams trust VertexTrace" />
-          <Artboard className="mx-auto my-4" horizontal size={6}>
-            chart
-          </Artboard>
-        </>
+          <Code />
+        </div>
       </Section>
       <Section bgColor="bg-[#282a2f]">
         <>
