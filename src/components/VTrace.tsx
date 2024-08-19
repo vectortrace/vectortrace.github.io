@@ -6,12 +6,12 @@ export default function VTrace() {
       <Hero.Content className="text-center">
         <div>
           <h1 className="text-5xl font-bold">VertexTrace</h1>
-          <p className="py-6">
+          <p className="py-6 text-wrap text-2xl">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <Artboard horizontal size={6}>
+          <Artboard className="mx-auto" horizontal size={6}>
             test
           </Artboard>
           <Button className="my-16 outline">Get started</Button>
