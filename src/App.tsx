@@ -2,7 +2,6 @@ import VTrace from "./components/VTrace";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Title from "./components/Title";
-import { Artboard } from "react-daisyui";
 import Subtitle from "./components/Subtitle";
 import VFooter from "./components/VFooter";
 import Image from "./components/Image";
