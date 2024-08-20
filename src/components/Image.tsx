@@ -1,6 +1,6 @@
-export default function Image({ src }: { src: string }) {
+export default function Image({ src, firstOnLgScreen = false }: { src: string, firstOnLgScreen?: boolean }) {
   return (
-    <div className="w-full h-full">
+    <div className={`w-full h-full ${firstOnLgScreen ? 'md:order-first' : ''}`}>
       <img
         loading="lazy"
         decoding="async"
