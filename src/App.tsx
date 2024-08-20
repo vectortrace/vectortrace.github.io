@@ -8,7 +8,7 @@ import TwoColContainer from "./components/GridTwoCol";
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <VTrace />
       <div className="bg-[#1a1c1f]">
@@ -35,7 +35,7 @@ function App() {
         </div>
       </div>
       <VFooter />
-    </>
+    </div>
   );
 }
 

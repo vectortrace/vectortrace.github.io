@@ -2,9 +2,9 @@ import { Button, Navbar as DaisyNavBar } from "react-daisyui";
 import VTraceFullSvg from "./VTraceFullSvg";
 export default function Navbar() {
   return (
-    <DaisyNavBar className="p-3 shadow-2xl mb-12">
+    <DaisyNavBar className="shadow-2xl mb-12">
       <div className="flex flex-none w-full justify-center">
-      <DaisyNavBar className="max-w-5xl w-10/12">
+      <DaisyNavBar className="max-w-5xl w-full">
         <div className="flex-1">
           <VTraceFullSvg />
         </div>

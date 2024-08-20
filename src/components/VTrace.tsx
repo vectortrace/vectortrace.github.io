@@ -1,12 +1,12 @@
-import { Button, Hero } from "react-daisyui";
+import { Button } from "react-daisyui";
 import Code from "./Code";
 
 export default function VTrace() {
   return (
-    <Hero className="grid-cols-[minmax(0,1fr)]">
-      <Hero.Content className="text-center">
+    <div className="grid-cols-[minmax(0,1fr)]">
+      <div className="text-center">
         <div>
-          <h1 className="text-6xl font-bold font-serif">Bring clarity to your AI workflow</h1>
+          <div className="text-6xl font-bold font-serif">Bring clarity to your AI workflow</div>
           <p className="pt-6 pb-1 text-lg font-mono">Code from local workspace. Run on GPUs with one click.</p>
           <p className="pb-1 text-lg font-mono">Rerun on same or different machines. Track all runs.</p>
           <p className="pb-3 text-lg font-mono">Visualize parameters. Evaluate. Fine-tune.</p>
@@ -15,7 +15,7 @@ export default function VTrace() {
             Get Started
           </Button>
         </div>
-      </Hero.Content>
-    </Hero>
+      </div>
+    </div>
   );
 }
