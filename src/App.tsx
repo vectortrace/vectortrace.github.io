@@ -2,8 +2,6 @@ import VTrace from "./components/VTrace";
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
-import VFooter from "./components/VFooter";
-import Image from "./components/Image";
 import Video from "./components/Video";
 import TwoColContainer from "./components/GridTwoCol";
 
@@ -45,18 +43,21 @@ function App() {
             <Video src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGOcB4guYc&#x2F;da1sTvnaqpCdu80sDx9NBA&#x2F;watch?embed" />
           </TwoColContainer>
           <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-          <Subtitle
-            text="Visualize and Compare"
-            subtext="Quickly compare different experiments and identify the best-performing models with a user-friendly web console, offers intuitive insights, allowing for a seamless selection of top-performing models.  "
-          />
+          <div className="p-5">
+            <Subtitle
+              text="Visualize and Compare"
+              subtext="Quickly compare different experiments and identify the best-performing models with a user-friendly web console, offers intuitive insights, allowing for a seamless selection of top-performing models.  "
+            />
+          </div>
           <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-          <Subtitle
-            text="Collaborate"
-            subtext="Share experiments and insights with team members. No more excel/doc sharing. See exactly what your teammate has been working on"
-          />
+          <div className="p-5 mb-12">
+            <Subtitle
+              text="Collaborate"
+              subtext="Share experiments and insights with team members. No more excel/doc sharing. See exactly what your teammate has been working on"
+            />
+          </div>
         </div>
       </div>
-      <VFooter />
     </div>
   );
 }
